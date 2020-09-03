@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+      <meta charset="utf-8">
+      <title>project</title>
+      <link rel="stylesheet" href="style1.css">
+    </head>
+
+
+    <body>
+        <header>
+
+        <div class="navbar">
+            <div>
+
+                <h1>Profile </h1>
+            </div>
+            <nav>
+            <ul>
+                <li>
+                    <a class="active" href="home.html">profile</a>
+                 </li>
+                   <li>
+                    <a href="create.php">create</a>
+                 </li>
+                   <li>
+                    <a href="search.php"> search</a>
+                 <li>
+                  <a href="index.php">logout</a>
+               </li>
+              </ul>
+            </nav>
+        </div>
+
+ </header>
+
+ <div class="container">
+
+    <h2>profile picture</h2><br>
+ 
+    <div id="display_img">
+    </div>
+    <input type="file" id="image_input" accept="image/png , image/jpg" onclick="removeElement('image_input')" >
+ </div>
+
+   <form id="output" >
+
+    <input type="text">
+   </form> 
+ 
+
+
+
+<script src="./profile.js"></script>
+
+    </body>
+</html>
